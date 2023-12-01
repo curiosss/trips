@@ -18,7 +18,7 @@ class ScaffoldWithNestedNavigation extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: navigationShell,
+      body: SafeArea(child: navigationShell),
       bottomNavigationBar: BottomNavigationBar(
         type: BottomNavigationBarType.fixed,
         currentIndex: navigationShell.currentIndex,

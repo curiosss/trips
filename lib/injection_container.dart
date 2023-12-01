@@ -1,1 +1,1 @@
-setupDependencies() {}
+setupDependencies() async {}

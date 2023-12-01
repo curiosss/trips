@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:trips/core/routes/app_routes.dart';
+import 'package:trips/common/routes/app_routes.dart';
 import 'package:trips/injection_container.dart';
 
 class SplashScreen extends StatefulWidget {

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:trips/core/routes/app_routes.dart';
-import 'package:trips/core/routes/scaffold_with_nested_nav.dart';
+import 'package:trips/common/routes/app_routes.dart';
+import 'package:trips/common/routes/scaffold_with_nested_nav.dart';
 import 'package:trips/features/auth/presentation/login_page.dart';
-import 'package:trips/features/trips/presentaion/pages/trips_search_page.dart';
+import 'package:trips/features/trips/view/pages/trips_search_page.dart';
 import 'package:trips/splash_screen.dart';
 
 final rootNavKey = GlobalKey<NavigatorState>();

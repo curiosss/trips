@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:trips/core/config/styles/dimens.dart';
-import 'package:trips/core/routes/app_routes.dart';
+import 'package:trips/config/styles/dimens.dart';
+import 'package:trips/common/routes/app_routes.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class LoginPage extends StatelessWidget {

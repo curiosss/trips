@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:trips/core/config/constants/app_constants.dart';
+import 'package:trips/config/constants/app_constants.dart';
 
 class NetworkService {
   Dio httpClient = Dio();
